@@ -14,7 +14,10 @@ npm install -g fontmin
 
 ## 3、执行脚本命令，查看结果：
 - 3.1、执行命令截图如下：
-<img alt="截图" width="670" src="https://cloud.githubusercontent.com/assets/1791748/15415184/8bc574ac-1e73-11e6-92b9-515281620e9d.png">
+<img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/01.png">
+
+- 3.2、压缩前后文件大小比较：
+<img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/01.png">
 
 
 
