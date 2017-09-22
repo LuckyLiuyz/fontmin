@@ -49,7 +49,9 @@ fontmin.run(function (err, files, stream) {
 
 
 
+# 致谢
 
+## <a href="https://github.com/ecomfe/fontmin">fontmin</a>
 
 
 
