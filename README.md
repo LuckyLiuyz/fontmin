@@ -1,22 +1,18 @@
 # fontmin
-字体压缩Demo
+字体压缩工具，实现将体积大的字体文件，按需压缩，以便达到高速加载的目的。
 
 # 操作步骤
 
-## 1、新建文件夹fontmin，并在此文件夹下执行如下命令：
+## 1、下载此项目，并在执行如下命令：
 ```shell
-npm install -g fontmin
+npm install
 ```
-## 2、创建如下文件目录：
+## 2、执行脚本命令，查看结果：
+```node
+npm run start
 ```
-2.1、“fontmin\asset\font”；        ---压缩后的字体文件目录
-2.2、“fontmin\src\font\xxx.ttf”；  ---源字体文件目录（此目录下存放源字体文件"xxx.ttf"）
-2.3、“fontmin\index.js”;           ---执行脚本文件
-```
-## 3、执行脚本命令，查看结果：
 
-
-- 3.1、脚本文件内容：
+- 2.1、脚本文件内容：
 ```javascript
 var Fontmin = require('fontmin');
 var srcPath = 'src/font/*.ttf'; // 字体源文件
