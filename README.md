@@ -49,14 +49,9 @@ fontmin.run(function (err, files, stream) {
 <img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/02.png">
 
 
-# 客户端下载地址（方便快捷）
-
-## <a href="http://ecomfe.github.io/fontmin/#app">前往下载</a>
-
-
 # 致谢
 
-## <a href="https://github.com/ecomfe/fontmin">fontmin</a>
+## <a href="https://github.com/ecomfe/fontmin" target="_blank">fontmin</a>
 
 
 
