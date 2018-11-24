@@ -21,7 +21,7 @@ npm install -g fontmin
 var Fontmin = require('fontmin');
 var srcPath = 'src/font/*.ttf'; // 字体源文件
 var destPath = 'asset/font';    // 输出路径
-var text = '我说你是人间的四月天；笑响点亮了四面风；轻灵在春的光艳中交舞着变。';
+var text = '我说你是人间的四月天；笑响点亮了四面风；轻灵在春的光艳中交舞着变。'; // 压缩其实就是从源字体文件中，提取所需要的字体。
 
 console.log(text)
 // 初始化
