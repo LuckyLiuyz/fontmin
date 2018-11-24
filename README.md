@@ -2,7 +2,6 @@
 字体压缩工具，实现将体积大的字体文件，按需压缩，以便达到高速加载的目的。
 
 ## 操作步骤
-
 ### 1、下载此项目，执行如下命令,安装依赖：
 ```shell
 npm install
@@ -12,7 +11,13 @@ npm install
 npm run start
 ```
 
-- 2.1、脚本文件内容：
+- 2.1、执行命令截图如下：
+<img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/01.png">
+
+- 2.2、压缩前后文件大小比较：
+<img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/02.png">
+
+- 2.3、脚本文件内容如下：
 ```javascriptvar Fontmin = require('fontmin');
 var srcPath = 'src/font/*.ttf'; // 字体源文件
 var destPath = 'dist/font';    // 输出路径
@@ -35,13 +40,6 @@ fontmin.run(function (err, files, stream) {
     console.log('fontmin success');// 成功
 });
 ```
-
-- 3.2、执行命令截图如下：
-<img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/01.png">
-
-- 3.3、压缩前后文件大小比较：
-<img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/02.png">
-
 
 ## 致谢
 
