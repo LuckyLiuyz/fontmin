@@ -1,13 +1,13 @@
 # fontmin
 字体压缩工具，实现将体积大的字体文件，按需压缩，以便达到高速加载的目的。
 
-# 操作步骤
+## 操作步骤
 
-## 1、下载此项目，执行如下命令,安装依赖：
+### 1、下载此项目，执行如下命令,安装依赖：
 ```shell
 npm install
 ```
-## 2、执行如下脚本命令，查看压缩结果：
+### 2、执行如下脚本命令，查看压缩结果：
 ```node
 npm run start
 ```
@@ -43,9 +43,9 @@ fontmin.run(function (err, files, stream) {
 <img alt="截图" width="670" src="https://github.com/Liuxiang66/fontmin/blob/master/img/02.png">
 
 
-# 致谢
+## 致谢
 
-## <a href="https://github.com/ecomfe/fontmin" target="_blank">fontmin</a>
+### <a href="https://github.com/ecomfe/fontmin" target="_blank">fontmin</a>
 
 
 
