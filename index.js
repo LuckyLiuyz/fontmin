@@ -2,6 +2,7 @@
 var Fontmin = require('fontmin');
 var srcPath = 'src/font/*.ttf'; // 字体源文件
 var destPath = 'dist/font';    // 输出路径
+// 按需提取的文字
 var text = '我说你是人间的四月天；笑响点亮了四面风；轻灵在春的光艳中交舞着变。';
 
 
@@ -13,11 +14,10 @@ var fontmin = new Fontmin()
     }))   
     .dest(destPath);            // 输出配置
 
-
 // 执行
 fontmin.run(function (err, files, stream) {
     if (err) {                  // 异常捕捉
         console.error(err);
     }
-    console.log('fontmin success');        // 成功
+    console.log('fontmin success');// 成功
 });
