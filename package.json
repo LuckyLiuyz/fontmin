@@ -1,0 +1,16 @@
+{
+  "name": "fontmin",
+  "version": "1.0.0",
+  "description": "fontmin 实现字体文件压缩。",
+  "keywords": ["fontmin", "压缩", "字体文件"],
+  "main": "",
+  "dependencies": {
+    "fontmin": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "browserslist": [
+  ]
+}
